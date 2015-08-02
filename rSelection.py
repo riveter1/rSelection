@@ -71,13 +71,13 @@ def register():
 
     #Select Linked
     kmi = km.keymap_items.new('mesh.select_linked_pick', 'SELECTMOUSE', 'DOUBLE_CLICK')
-    kmi_props_setattr(kmi.properties, 'limit', True)
+    #kmi_props_setattr(kmi.properties, 'limit', True)
     kmi_props_setattr(kmi.properties, 'deselect', False)
     kmi = km.keymap_items.new('mesh.select_linked_pick', 'SELECTMOUSE', 'DOUBLE_CLICK', shift=True)
-    kmi_props_setattr(kmi.properties, 'limit', True)
+    #kmi_props_setattr(kmi.properties, 'limit', True)
     kmi_props_setattr(kmi.properties, 'deselect', False)
     kmi = km.keymap_items.new('mesh.select_linked_pick', 'SELECTMOUSE', 'DOUBLE_CLICK', ctrl=True)
-    kmi_props_setattr(kmi.properties, 'limit', True)
+    #kmi_props_setattr(kmi.properties, 'limit', True)
     kmi_props_setattr(kmi.properties, 'deselect', True)
     
     #----OBJECT MODE----
